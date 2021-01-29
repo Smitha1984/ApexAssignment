@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.SearchTest">
+        <methods>
+          <include name="addItemToCart"/>
+          <include name="teardown"/>
+          <include name="proceedToCheckout"/>
+          <include name="searchItem"/>
+          <include name="clickFirstSeachResult"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Tests.SearchTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

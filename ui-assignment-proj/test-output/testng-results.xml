@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9062" started-at="2021-01-28T23:43:57Z" finished-at="2021-01-28T23:44:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9062" started-at="2021-01-28T23:43:57Z" finished-at="2021-01-28T23:44:06Z">
+      <class name="Tests.SearchTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:Tests.SearchTest@4c70fda8]" name="init" is-config="true" duration-ms="11107" started-at="2021-01-28T23:43:46Z" finished-at="2021-01-28T23:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="searchItem()[pri:1, instance:Tests.SearchTest@4c70fda8]" name="searchItem" duration-ms="2821" started-at="2021-01-28T23:43:57Z" finished-at="2021-01-28T23:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="clickFirstSeachResult()[pri:2, instance:Tests.SearchTest@4c70fda8]" name="clickFirstSeachResult" duration-ms="3745" started-at="2021-01-28T23:44:00Z" finished-at="2021-01-28T23:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFirstSeachResult -->
+        <test-method status="PASS" signature="addItemToCart()[pri:3, instance:Tests.SearchTest@4c70fda8]" name="addItemToCart" duration-ms="1354" started-at="2021-01-28T23:44:03Z" finished-at="2021-01-28T23:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCart -->
+        <test-method status="PASS" signature="proceedToCheckout()[pri:4, instance:Tests.SearchTest@4c70fda8]" name="proceedToCheckout" duration-ms="1076" started-at="2021-01-28T23:44:05Z" finished-at="2021-01-28T23:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.SearchTest@4c70fda8]" name="teardown" is-config="true" duration-ms="2203" started-at="2021-01-28T23:44:06Z" finished-at="2021-01-28T23:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
